@@ -687,6 +687,14 @@ header
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
+  .right-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  .right-image {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1031,7 +1039,7 @@ About Us Style
 
 .about-us .left-image p {
   /* margin-right: 45px; */
-  /* color: white; */
+  /* color: white;*/
   padding-top: -20px;
 }
 
@@ -1663,6 +1671,9 @@ responsive
   .phone-info h4 span i {
     margin-left: 0px;
   }
+  .fa-sun {
+    color: var(--text-color) !important;
+  }
 }
 .fadeInRight img {
   width: 550px;
@@ -1686,4 +1697,50 @@ button#theme-toggle {
 }
 .front-content {
   gap: 60px;
+}
+.back-content {
+  gap: 60px;
+}
+.outil-content {
+  gap: 60px;
+}
+@media (max-width: 678px) {
+  .front-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+    padding: 0px 0px 0px 15px;
+  }
+  .back-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+    padding: 0 0px 0px 15px;
+  }
+  .outil-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+    padding: 0 0px 0px 15px;
+  }
+
+  .about-us .profil {
+    /* bottom: -280px; */
+    padding: 0px 0px 0px 20px;
+    /* margin-top: 15px !important; */
+  }
+  .right-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  .right-image {
+    text-align: center;
+  }
+  .fa-sun {
+    color: var(--text-color) !important;
+  }
 }
