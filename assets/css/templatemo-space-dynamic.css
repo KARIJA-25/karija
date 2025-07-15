@@ -1684,3 +1684,6 @@ button#theme-toggle {
 .fa-sun {
   color: var(--text-color) !important;
 }
+.front-content {
+  gap: 60px;
+}
