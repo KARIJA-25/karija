@@ -1709,8 +1709,8 @@ button#theme-toggle {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 40px;
-    padding: 0px 0px 0px 15px;
+    gap: 35px;
+    padding: 0 0px 0px 15px;
   }
   .back-content {
     display: flex;
