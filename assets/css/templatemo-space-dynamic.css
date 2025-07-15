@@ -162,7 +162,7 @@ hgroup {
 * {
   box-sizing: border-box;
 }
-:root{
+:root {
   --bg-color: #ffffff;
   --text-color: #333333;
 }
@@ -337,7 +337,8 @@ header
 }
 
 .header-area {
-  background-color: #fafafa;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -433,7 +434,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: var(--text-color) !important;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1668,12 +1669,12 @@ responsive
   border-radius: 50%;
 }
 
-[data-theme="dark"]{
+[data-theme="dark"] {
   --bg-color: #121212;
-  --text-color: #f0f0f0;4
+  --text-color: #f0f0f0;
   --primary-color: #bb86fc;
 }
-button#theme-toggle{
+button#theme-toggle {
   background: none;
   border: none;
   cursor: pointer;
