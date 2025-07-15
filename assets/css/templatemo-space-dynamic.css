@@ -1258,6 +1258,7 @@ Blog
   position: relative;
   margin-top: 80px;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our-blog .section-heading h2 {
@@ -1615,7 +1616,7 @@ responsive
   }
   .contact-us {
     margin-top: 60px;
-    padding: 120px 0px;
+    padding: 100px 0px;
   }
   .contact-us .section-heading {
     text-align: center;
