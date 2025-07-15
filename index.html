@@ -807,8 +807,11 @@
           updateButtonText(newTheme);
         });
         function updateButtonText(theme) {
-          themeToggle.textContent = theme === "light" ? "🌙" : "☀️";
+          themeToggle.innerHTML = theme === "light"
+            ? '<i class="fas fa-moon"></i>' // lune = mode sombre
+            : '<i class="fas fa-sun"></i>'; // soleil = mode clair
         }
+
       });
     </script>
   </body>
