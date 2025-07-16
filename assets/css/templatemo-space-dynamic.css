@@ -1042,9 +1042,12 @@ About Us Style
   /* color: white;*/
   padding-top: -20px;
 }
-
+.services {
+  /* border: 1px solid red; */
+  padding-bottom: 30px;
+}
 .about-us .services .item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .about-us .services .item .icon {
@@ -1063,10 +1066,6 @@ About Us Style
   margin-bottom: 12px;
 }
 
-.about-us .services .item p {
-  /* color: #fff; */
-}
-
 /* 
 ---------------------------------------------
 Services Style
@@ -1076,10 +1075,6 @@ Services Style
 .our-services {
   margin-top: 0px;
   padding-top: 120px;
-}
-
-.our-services .left-image {
-  margin-right: 45px;
 }
 
 .our-services .section-heading h2 {
@@ -1639,6 +1634,31 @@ responsive
   footer p {
     margin: 15px 0px 30px 0px;
   }
+  .services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .services-1 {
+    margin-bottom: 4px;
+    padding: 1em 0 0 1em;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    text-align: center;
+    height: auto;
+  }
+  .services-items div {
+    width: 100%;
+  }
+  .about-us div div .left-image {
+    padding: 50px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1673,6 +1693,31 @@ responsive
   }
   .fa-sun {
     color: var(--text-color) !important;
+  }
+  .services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .services-1 {
+    margin-bottom: 4px;
+    padding: 1em 0 0 1em;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    text-align: center;
+    height: auto;
+  }
+  .services-items div {
+    width: 100%;
+  }
+  .about-us div div .left-image {
+    padding: -10px;
   }
 }
 .fadeInRight img {
@@ -1726,12 +1771,6 @@ button#theme-toggle {
     gap: 40px;
     padding: 0 0px 0px 15px;
   }
-
-  .about-us .profil {
-    /* bottom: -280px; */
-    padding: 0px 0px 0px 20px;
-    /* margin-top: 15px !important; */
-  }
   .right-image img {
     width: 250px;
     height: 250px;
@@ -1743,4 +1782,74 @@ button#theme-toggle {
   .fa-sun {
     color: var(--text-color) !important;
   }
+  .services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .services-1 {
+    margin-bottom: 4px;
+    padding: 1em 0 0 1em;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    text-align: center;
+    height: auto;
+  }
+  .services-items div {
+    width: 100%;
+  }
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    /* border: 1px solid red; */
+    height: auto;
+  }
+  .about-us div div .left-image {
+    margin-top: 40px;
+  }
+}
+.services-1 {
+  margin-bottom: 4px;
+  padding: 1em 0 0 1em;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  text-align: center;
+}
+.services-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.col-md-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.services-1:hover {
+  background-color: #ffbd39;
+  width: 100%;
+}
+.services-1 .desc h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 10px 0px 0px;
+  color: #000000;
+}
+.services-1 {
+  background-color: #f7f6f6fa;
+  border-radius: 16px;
 }
