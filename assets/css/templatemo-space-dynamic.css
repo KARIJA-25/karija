@@ -1787,7 +1787,7 @@ button#theme-toggle {
 #about .profil span {
   display: block;
   font-size: 1.1rem;
-  color: #333;
+  color: var(--text-color) !important;
   margin-bottom: 8px;
   font-weight: 500;
 }
@@ -1824,12 +1824,12 @@ button#theme-toggle {
   font-size: 1.15rem;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #212529;
+  color: var(--text-color) !important;
 }
 
 #about .services .right-text p {
   font-size: 0.95rem;
-  color: #555;
+  color: var(--text-color) !important;
   margin: 0;
 }
 
