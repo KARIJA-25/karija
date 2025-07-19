@@ -1860,6 +1860,21 @@ button#theme-toggle {
   #about .services .right-text {
     text-align: center;
   }
+  #about .profil span {
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: var(--text-color) !important;
+  }
+
+  #about .services .right-text h4 {
+    font-size: 1rem;
+    color: var(--text-color) !important;
+  }
+
+  #about .services .right-text p {
+    font-size: 0.9rem;
+    color: var(--text-color) !important;
+  }
 }
 
 /* Mobile (max-width: 576px) */
@@ -1873,14 +1888,17 @@ button#theme-toggle {
   #about .profil span {
     padding-bottom: 20px;
     font-size: 1rem;
+    color: var(--text-color) !important;
   }
 
   #about .services .right-text h4 {
     font-size: 1rem;
+    color: var(--text-color) !important;
   }
 
   #about .services .right-text p {
     font-size: 0.9rem;
+    color: var(--text-color) !important;
   }
 
   #about .services .item {
