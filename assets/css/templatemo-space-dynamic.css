@@ -1642,6 +1642,21 @@ responsive
   .services-items div {
     width: 100%;
   }
+  #about .profil span {
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: var(--text-color) !important;
+  }
+
+  #about .services .right-text h4 {
+    font-size: 1rem;
+    color: var(--text-color) !important;
+  }
+
+  #about .services .right-text p {
+    font-size: 0.9rem;
+    color: var(--text-color) !important;
+  }
 }
 .fadeInRight img {
   width: 550px;
@@ -1729,6 +1744,21 @@ button#theme-toggle {
   }
   .services-items div {
     width: 100%;
+  }
+  #about .profil span {
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: var(--text-color) !important;
+  }
+
+  #about .services .right-text h4 {
+    font-size: 1rem;
+    color: var(--text-color) !important;
+  }
+
+  #about .services .right-text p {
+    font-size: 0.9rem;
+    color: var(--text-color) !important;
   }
 }
 .services-1 {
