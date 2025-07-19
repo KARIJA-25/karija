@@ -1802,7 +1802,7 @@ button#theme-toggle {
   align-items: flex-start;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: #ffffff;
+  background-color: var(--bg-color) !important;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
