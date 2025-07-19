@@ -951,7 +951,6 @@ Banner Style
 }
 
 .main-banner .left-content h6 {
-  /* text-transform: uppercase; */
   font-size: 18px;
   color: #fe3f40;
   margin-bottom: 15px;
@@ -1019,54 +1018,10 @@ Banner Style
   color: #fff;
 }
 
-/* 
----------------------------------------------
-About Us Style
---------------------------------------------- 
-*/
-
-#about {
-  margin-top: 120px;
-}
-
-/* .about-us {
-  /* background-image: url(../images/about-bg.png); 
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 140px 0px 120px 0px;
-} */
-
-.about-us .left-image p {
-  /* margin-right: 45px; */
-  /* color: white;*/
-  padding-top: -20px;
-}
 .services {
-  /* border: 1px solid red; */
   padding-bottom: 30px;
 }
-.about-us .services .item {
-  margin-bottom: 10px;
-}
-
-.about-us .services .item .icon {
-  float: left;
-  margin-right: 25px;
-}
-
-.about-us .services .item .icon img {
-  max-width: 70px;
-}
-
-.about-us .services .item h4 {
-  /* color: #fff; */
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-/* 
+/*
 ---------------------------------------------
 Services Style
 --------------------------------------------- 
@@ -1074,7 +1029,7 @@ Services Style
 
 .our-services {
   margin-top: 0px;
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
 .our-services .section-heading h2 {
@@ -1156,7 +1111,7 @@ Services Style
 
 /* 
 ---------------------------------------------
-Portfolio
+Projects
 --------------------------------------------- 
 */
 
@@ -1294,7 +1249,6 @@ Blog
   background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  /* margin-right: 75px; */
   position: absolute;
   margin-top: -150px;
   padding: 15px;
@@ -1529,6 +1483,10 @@ responsive
 }
 
 @media (max-width: 992px) {
+  .our-services {
+    margin-top: 0px;
+    padding-top: 50px;
+  }
   .main-banner {
     padding-top: 196px;
   }
@@ -1544,37 +1502,6 @@ responsive
   .main-banner .left-content form,
   .main-banner .left-content form input {
     width: 100% !important;
-  }
-  #about {
-    margin-top: 0px;
-  }
-  .about-us {
-    position: relative;
-    background-image: none;
-    padding: 0px;
-  }
-  .about-us .left-image {
-    margin-right: 0px;
-    position: absolute;
-    bottom: -220px;
-    right: 0;
-  }
-  .about-us .services {
-    text-align: center;
-  }
-  .about-us .services .item {
-    background: rgb(255, 77, 30);
-    background: linear-gradient(
-      105deg,
-      rgba(255, 77, 30, 1) 0%,
-      rgba(255, 44, 109, 1) 100%
-    );
-    padding: 30px;
-    border-radius: 20px;
-    display: inline-block;
-  }
-  .about-us .services .item .right-text {
-    text-align: left;
   }
   .our-services {
     margin-top: 200px;
@@ -1640,7 +1567,6 @@ responsive
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* border: 1px solid red; */
   }
   .services-1 {
     margin-bottom: 4px;
@@ -1656,15 +1582,15 @@ responsive
   .services-items div {
     width: 100%;
   }
-  .about-us div div .left-image {
-    padding: 50px;
-  }
 }
 
 @media (max-width: 767px) {
-  .about-us .left-image {
-    bottom: -280px;
-    padding: 30px;
+  .profil {
+    padding-bottom: 20px;
+  }
+  .our-services {
+    margin-top: 0px;
+    padding-top: 50px;
   }
   .our-blog .right-list {
     margin-left: 0px;
@@ -1716,9 +1642,6 @@ responsive
   .services-items div {
     width: 100%;
   }
-  .about-us div div .left-image {
-    padding: -10px;
-  }
 }
 .fadeInRight img {
   width: 550px;
@@ -1750,6 +1673,10 @@ button#theme-toggle {
   gap: 60px;
 }
 @media (max-width: 678px) {
+  .our-services {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
   .front-content {
     display: flex;
     flex-wrap: wrap;
@@ -1788,7 +1715,6 @@ button#theme-toggle {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* border: 1px solid red; */
   }
   .services-1 {
     margin-bottom: 4px;
@@ -1803,17 +1729,6 @@ button#theme-toggle {
   }
   .services-items div {
     width: 100%;
-  }
-  .about-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 100%;
-    /* border: 1px solid red; */
-    height: auto;
-  }
-  .about-us div div .left-image {
-    margin-top: 40px;
   }
 }
 .services-1 {
@@ -1852,4 +1767,123 @@ button#theme-toggle {
 .services-1 {
   background-color: #f7f6f6fa;
   border-radius: 16px;
+}
+/* SECTION ABOUT */
+#about {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#about .profil {
+  margin-bottom: 20px;
+}
+
+#about .profil span {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+#about .services {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#about .services .item {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about .services .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+#about .services .icon {
+  margin-right: 15px;
+  font-size: 28px;
+  color: #0d6efd;
+  flex-shrink: 0;
+}
+
+#about .services .right-text h4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #212529;
+}
+
+#about .services .right-text p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+}
+
+/* === Responsive Design === */
+
+/* Tablette (max-width: 991px) */
+@media (max-width: 991px) {
+  #about .row {
+    flex-direction: column;
+  }
+
+  #about .col-lg-4,
+  #about .col-lg-8 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  #about .services .item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  #about .services .icon {
+    margin: 0 0 10px 0;
+  }
+
+  #about .services .right-text {
+    text-align: center;
+  }
+}
+
+/* Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  #about {
+    padding: 40px 15px;
+  }
+  #about .profil {
+    margin-bottom: 20px;
+  }
+  #about .profil span {
+    padding-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  #about .services .right-text h4 {
+    font-size: 1rem;
+  }
+
+  #about .services .right-text p {
+    font-size: 0.9rem;
+  }
+
+  #about .services .item {
+    padding: 15px;
+  }
 }
