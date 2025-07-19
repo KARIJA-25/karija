@@ -1642,21 +1642,6 @@ responsive
   .services-items div {
     width: 100%;
   }
-  #about .profil span {
-    padding-bottom: 20px;
-    font-size: 1rem;
-    color: var(--text-color) !important;
-  }
-
-  #about .services .right-text h4 {
-    font-size: 1rem;
-    color: var(--text-color) !important;
-  }
-
-  #about .services .right-text p {
-    font-size: 0.9rem;
-    color: var(--text-color) !important;
-  }
 }
 .fadeInRight img {
   width: 550px;
@@ -1745,21 +1730,6 @@ button#theme-toggle {
   .services-items div {
     width: 100%;
   }
-  #about .profil span {
-    padding-bottom: 20px;
-    font-size: 1rem;
-    color: var(--text-color) !important;
-  }
-
-  #about .services .right-text h4 {
-    font-size: 1rem;
-    color: var(--text-color) !important;
-  }
-
-  #about .services .right-text p {
-    font-size: 0.9rem;
-    color: var(--text-color) !important;
-  }
 }
 .services-1 {
   margin-bottom: 4px;
@@ -1801,7 +1771,7 @@ button#theme-toggle {
 /* SECTION ABOUT */
 #about {
   padding: 60px 0;
-  background-color: #f8f9fa;
+  background-color: var(--bg-color) !important;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -1889,21 +1859,6 @@ button#theme-toggle {
 
   #about .services .right-text {
     text-align: center;
-  }
-  #about .profil span {
-    padding-bottom: 20px;
-    font-size: 1rem;
-    color: var(--text-color) !important;
-  }
-
-  #about .services .right-text h4 {
-    font-size: 1rem;
-    color: var(--text-color) !important;
-  }
-
-  #about .services .right-text p {
-    font-size: 0.9rem;
-    color: var(--text-color) !important;
   }
 }
 
