@@ -1771,7 +1771,7 @@ button#theme-toggle {
 /* SECTION ABOUT */
 #about {
   padding: 60px 0;
-  background-color: var(--bg-color) !important;
+  background-color: #f7f6f6fa;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -1787,7 +1787,7 @@ button#theme-toggle {
 #about .profil span {
   display: block;
   font-size: 1.1rem;
-  color: var(--text-color) !important;
+  color: black !important;
   margin-bottom: 8px;
   font-weight: 500;
 }
@@ -1802,7 +1802,7 @@ button#theme-toggle {
   align-items: flex-start;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: var(--bg-color) !important;
+  /* background-color: ; */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1824,12 +1824,12 @@ button#theme-toggle {
   font-size: 1.15rem;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--text-color) !important;
+  color: black !important;
 }
 
 #about .services .right-text p {
   font-size: 0.95rem;
-  color: var(--text-color) !important;
+  color: black !important;
   margin: 0;
 }
 
@@ -1873,17 +1873,17 @@ button#theme-toggle {
   #about .profil span {
     padding-bottom: 20px;
     font-size: 1rem;
-    color: var(--text-color) !important;
+    color: black !important;
   }
 
   #about .services .right-text h4 {
     font-size: 1rem;
-    color: var(--text-color) !important;
+    color: black !important;
   }
 
   #about .services .right-text p {
     font-size: 0.9rem;
-    color: var(--text-color) !important;
+    color: black !important;
   }
 
   #about .services .item {
