@@ -950,11 +950,11 @@ Banner Style
   margin-right: 45px;
 }
 
-.main-banner .left-content h6 {
+/* .main-banner .left-content h6 {
   font-size: 18px;
   color: #fe3f40;
   margin-bottom: 15px;
-}
+} */
 
 .main-banner .left-content h2 {
   font-size: 50px;
@@ -1769,123 +1769,4 @@ button#theme-toggle {
 .services-1 {
   background-color: #f7f6f6fa;
   border-radius: 16px;
-}
-/* SECTION ABOUT */
-#about {
-  padding: 60px 0;
-  background-color: #f8f9fa;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#about .section-title {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-#about .profil {
-  margin-bottom: 20px;
-}
-
-#about .profil span {
-  display: block;
-  font-size: 1.1rem;
-  color: #212529;
-  margin-bottom: 8px;
-  font-weight: 500;
-}
-
-#about .services {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-#about .services .item {
-  display: flex;
-  align-items: flex-start;
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#about .services .item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
-#about .services .icon {
-  margin-right: 15px;
-  font-size: 28px;
-  color: #0d6efd;
-  flex-shrink: 0;
-}
-
-#about .services .right-text h4 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #212529;
-}
-
-#about .services .right-text p {
-  font-size: 0.95rem;
-  color: #212529 !important;
-  margin: 0;
-}
-
-/* === Responsive Design === */
-
-/* Tablette (max-width: 991px) */
-@media (max-width: 991px) {
-  #about .row {
-    flex-direction: column;
-  }
-
-  #about .col-lg-4,
-  #about .col-lg-8 {
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-
-  #about .services .item {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-
-  #about .services .icon {
-    margin: 0 0 10px 0;
-  }
-
-  #about .services .right-text {
-    text-align: center;
-  }
-}
-
-/* Mobile (max-width: 576px) */
-@media (max-width: 576px) {
-  #about {
-    padding: 40px 15px;
-  }
-  #about .profil {
-    margin-bottom: 20px;
-  }
-  #about .profil span {
-    padding-bottom: 20px;
-    font-size: 1rem;
-  }
-
-  #about .services .right-text h4 {
-    font-size: 1rem;
-  }
-
-  #about .services .right-text p {
-    font-size: 0.9rem;
-  }
-
-  #about .services .item {
-    padding: 15px;
-  }
 }
